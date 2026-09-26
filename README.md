@@ -130,3 +130,10 @@ web: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
 - Start: `serve -s dist -l $PORT`
 
 Set `VITE_API_URL` in the frontend Railway service's environment variables to point at the deployed backend URL.
+
+
+## 7. Architecture
+
+<img width="4690" height="6822" alt="tameer architecture" src="https://github.com/user-attachments/assets/293078d6-5387-4db7-b080-8e580b7879ce" />
+
+
