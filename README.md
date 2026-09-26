@@ -131,6 +131,7 @@ web: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
 
 Set `VITE_API_URL` in the frontend Railway service's environment variables to point at the deployed backend URL.
 
+---
 
 ## 7. Architecture
 
