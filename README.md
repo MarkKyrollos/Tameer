@@ -62,7 +62,7 @@ Fill in `.env`:
 ## 2. Run the backend
 
 ```bash
-uvicorn backend.main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8000  # OR: python -m uvicorn backend.main:app --reload --port 8000
 ```
 
 - Swagger UI: **http://localhost:8000/docs**
